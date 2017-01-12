@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TransparentStatusBar</string>
+    <string name="titlebar_white">Titlebar White</string>
+    <string name="titlebar_red">Titlebar Red</string>
+    <string name="title">TitleContent</string>
+    <string name="back">Back</string>
+    <string name="content"><![CDATA[A Drawable that manages an array of other Drawables. These are drawn in array order, so the element with the largest index will be drawn on top.  \n\nIt can be defined in an XML file with the <layer-list> element. Each Drawable in the layer is defined in a nested <item>.]]></string>
+</resources>
