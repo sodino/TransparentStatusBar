@@ -12,19 +12,29 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        findViewById(R.id.btnWhite).setOnClickListener(this);
-        findViewById(R.id.btnRed).setOnClickListener(this);
+        findViewById(R.id.btnWhitePaddingTop).setOnClickListener(this);
+        findViewById(R.id.btnRedPaddingTop).setOnClickListener(this);
+        findViewById(R.id.btnFitssystemwindowRed).setOnClickListener(this);
+        findViewById(R.id.btnFitssystemwindowWhite).setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch(v.getId()) {
-            case R.id.btnWhite:{
-                Intent intent = new Intent(this, FlagWhiteActivity.class);
+            case R.id.btnWhitePaddingTop:{
+                Intent intent = new Intent(this, PaddingTopWhiteActivity.class);
                 startActivity(intent);
             }break;
-            case R.id.btnRed:{
-                Intent intent = new Intent(this, FlagRedActivity.class);
+            case R.id.btnRedPaddingTop:{
+                Intent intent = new Intent(this, PaddingTopRedActivity.class);
+                startActivity(intent);
+            }break;
+            case R.id.btnFitssystemwindowWhite:{
+                Intent intent = new Intent(this, FitsSystemWindowWhiteActivity.class);
+                startActivity(intent);
+            }break;
+            case R.id.btnFitssystemwindowRed:{
+                Intent intent = new Intent(this, FitsSystemWindowRedActivity.class);
                 startActivity(intent);
             }break;
         }

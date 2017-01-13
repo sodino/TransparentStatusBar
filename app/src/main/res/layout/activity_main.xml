@@ -14,11 +14,24 @@
 
     <Button android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/titlebar_white"
-        android:id="@+id/btnWhite"></Button>
+        android:text="@string/titlebar_paddingTop_white"
+        android:id="@+id/btnWhitePaddingTop"
+        android:textAllCaps="false"></Button>
     <Button android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/titlebar_red"
-        android:id="@+id/btnRed"></Button>
+        android:text="@string/titlebar_paddingTop_red"
+        android:id="@+id/btnRedPaddingTop"
+        android:textAllCaps="false"></Button>
+
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titlebar_fitssystemwindow_white"
+        android:id="@+id/btnFitssystemwindowWhite"
+        android:textAllCaps="false"></Button>
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titlebar_fitssystemwindow_red"
+        android:id="@+id/btnFitssystemwindowRed"
+        android:textAllCaps="false"></Button>
 
 </LinearLayout>

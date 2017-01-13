@@ -5,17 +5,25 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/icon"
-        android:label="@string/app_name"
-        android:theme="@android:style/Theme.NoTitleBar">
+        android:label="@string/app_name">
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FlagRedActivity">
+        <activity android:name=".PaddingTopRedActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
         </activity>
-        <activity android:name=".FlagWhiteActivity"/>
+        <activity android:name=".PaddingTopWhiteActivity"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".FitsSystemWindowRedActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity android:name=".FitsSystemWindowWhiteActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
     </application>
 </manifest>
