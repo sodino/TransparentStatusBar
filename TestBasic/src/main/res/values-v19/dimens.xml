@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="translateStatusBarHeight">25dp</dimen>
+</resources>

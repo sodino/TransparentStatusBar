@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--- 实现ripple透出View矩形区域的效果 -->
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:color="@android:color/darker_gray" android:drawable="@android:color/darker_gray" android:state_pressed="true"/>
-    <item android:color="@android:color/transparent" android:drawable="@android:color/transparent" android:state_pressed="false"/>
-</selector>
