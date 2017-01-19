@@ -34,9 +34,11 @@ public class TitlebarActivity extends BaseActivity {
         LinearLayout linearLayout = new LinearLayout(this);
         linearLayout.setOrientation(LinearLayout.VERTICAL);
 
-        viewStatusbarBackground = LayoutInflater.from(this).inflate(R.layout.transparent_status_bar_bg_view, linearLayout, true);
+        LayoutInflater.from(this).inflate(R.layout.transparent_status_bar_bg_view, linearLayout, true);
+        viewStatusbarBackground = linearLayout.findViewById(R.id.status_bar_background);
 
-        viewTitlebar = LayoutInflater.from(this).inflate(R.layout.titlebar_original, linearLayout, true);
+        LayoutInflater.from(this).inflate(R.layout.titlebar_original, linearLayout, true);
+        viewTitlebar = linearLayout.findViewById(R.id.titlebar_layout);
 
         initTitlebarIDs(viewTitlebar);
 
@@ -53,4 +55,6 @@ public class TitlebarActivity extends BaseActivity {
         contentView = view;
         super.setContentView(view);
     }
+
+
 }
