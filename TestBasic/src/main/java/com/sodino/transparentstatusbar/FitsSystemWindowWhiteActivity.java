@@ -48,6 +48,7 @@ public class FitsSystemWindowWhiteActivity extends Activity implements View.OnCl
         txt.setText("API Level v" + Build.VERSION.SDK_INT + "\n\n");
         txt.append("Device : " + Build.FINGERPRINT + "\n\n");
         txt.append(getString(R.string.content));
+
     }
 
     @Override
