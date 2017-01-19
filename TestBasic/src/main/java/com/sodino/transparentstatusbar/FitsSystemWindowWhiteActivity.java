@@ -4,8 +4,10 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
+import android.view.WindowInsets;
 import android.view.WindowManager;
 import android.widget.TextView;
 
@@ -16,6 +18,7 @@ public class FitsSystemWindowWhiteActivity extends Activity implements View.OnCl
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(R.layout.activity_fitssystemwindow_white);
+
         boolean needChanged = true;
         Window window = getWindow();
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -30,8 +33,7 @@ public class FitsSystemWindowWhiteActivity extends Activity implements View.OnCl
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
             window.setStatusBarColor(Color.TRANSPARENT);
         } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            WindowManager.LayoutParams localLayoutParams = window.getAttributes();
-            localLayoutParams.flags = (WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS | localLayoutParams.flags);
+            window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         }
         if (needChanged) {
             findViewById(R.id.titleBar).setBackgroundResource(R.drawable.title_layout_white3);
@@ -42,8 +44,6 @@ public class FitsSystemWindowWhiteActivity extends Activity implements View.OnCl
 
         ((TextView)findViewById(R.id.content)).append("\n\nAPI Level v" + Build.VERSION.SDK_INT);
     }
-
-
 
     @Override
     public void onClick(View v) {

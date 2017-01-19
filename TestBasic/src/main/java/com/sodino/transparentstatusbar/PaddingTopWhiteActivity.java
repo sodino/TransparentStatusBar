@@ -16,6 +16,7 @@ public class PaddingTopWhiteActivity extends Activity implements View.OnClickLis
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(R.layout.activity_paddingtop_white);
+
         boolean needChanged = true;
         Window window = getWindow();
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -30,8 +31,7 @@ public class PaddingTopWhiteActivity extends Activity implements View.OnClickLis
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
             window.setStatusBarColor(Color.TRANSPARENT);
         } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            WindowManager.LayoutParams localLayoutParams = window.getAttributes();
-            localLayoutParams.flags = (WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS | localLayoutParams.flags);
+            window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         }
         if (needChanged) {
             findViewById(R.id.titleBar).setBackgroundResource(R.drawable.title_layout_white3);
