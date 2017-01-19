@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 通用的头部 -->
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="@dimen/status_bar_height"
+    android:layout_width="match_parent"
+    android:id="@+id/status_bar_background"
+    android:background="@color/titlebar_bg"
+    >
+</View>

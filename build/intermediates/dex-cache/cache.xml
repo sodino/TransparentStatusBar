@@ -3,48 +3,57 @@
 
     <item
         is-multidex="false"
-        jar="D:\github\TransparentStatusBar\TestBasic\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_40f9fe8a4a5fb09d102cdb219e0be9b8639333ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="D:\github\TransparentStatusBar\TestBasic\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5bc15c9fbeea7865d84049b81ff96c69970d99b7.jar" />
+        <dex dex="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_f1f10881093efe1d84234465ca4337aeef08b27c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\github\TransparentStatusBar\TestBasic\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jar="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="D:\github\TransparentStatusBar\TestBasic\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_66216adda089f9323652f869c92eb52c2f2e6d6b.jar" />
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_18e9c208965eb3a66b17b99a10da03ab23319720.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\github\TransparentStatusBar\TestBasic\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jar="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="D:\github\TransparentStatusBar\TestBasic\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_b16e209ba77adc46fe9c3e4b4796e0b4988f1703.jar" />
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_391b8e49f8e430f74e5bcac0739dd48483461d78.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\github\TransparentStatusBar\TestBasic\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="D:\github\TransparentStatusBar\TestBasic\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_eaad710873ea4df0c2aebbb6772bcae5d7499ea8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\github\TransparentStatusBar\TestBasic\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="D:\github\TransparentStatusBar\TestBasic\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_a5d1352089367f95d9846aa21fbf280785bcd4b5.jar" />
+        <dex dex="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_b54033cc20f7a75b2c17bc4296caed1402411c8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_b67cbf001408cabce89261f8a81f55b75ed4cee6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -53,88 +62,79 @@
         optimize="true"
         revision="24.0.2"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="D:\github\TransparentStatusBar\TestBasic\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_56f9c0d435e1b5de6382cbff958ca352d4f945c3.jar" />
+        <dex dex="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_56f9c0d435e1b5de6382cbff958ca352d4f945c3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\github\TransparentStatusBar\TestBasic\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jar="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="D:\github\TransparentStatusBar\TestBasic\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_3e2f53800cf67ad0db9460255628da46d6e2d8a8.jar" />
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_63bcb29bb7be311bd5d04043aecfb8a880381eb0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\github\TransparentStatusBar\TestBasic\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="D:\github\TransparentStatusBar\TestBasic\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_194c82ab2a1a9ac5ac6d36a6a21c56383c310442.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\github\TransparentStatusBar\TestBasic\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jar="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="D:\github\TransparentStatusBar\TestBasic\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_5902b7ddad2379f9352914cd846cf6a2ef888ece.jar" />
+        <dex dex="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_2d63a68a01c2d02d9ab1ab3ae495bd30c4b5d1dc.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\github\TransparentStatusBar\TestBasic\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jar="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="D:\github\TransparentStatusBar\TestBasic\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_f9c3893e16991af1094416ca8f3f2b69af688429.jar" />
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_190df093b8c0b2119724a997e75df9b92e469f63.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\github\TransparentStatusBar\TestBasic\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="D:\github\TransparentStatusBar\TestBasic\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_dde5dc55329097e576eca3e93aaa974f304d8cc8.jar" />
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_f9b0fef6580d2434b4b5e90b0ff56df5a42c2576.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\github\TransparentStatusBar\TestBasic\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="D:\github\TransparentStatusBar\TestBasic\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5630d172a1a7c783375387daacd1edeb8a062fb8.jar" />
+        <dex dex="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_782ef734cbd0a89829d78ac6201fe1455e4a76c2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\github\TransparentStatusBar\TestBasic\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jar="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\github\TransparentStatusBar\TestBasic\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_d5e1e1cfe097b8b1028db96ce68dece7b969a7fb.jar" />
+        <dex dex="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_74483bb58ef9e84e9295bd1e5678296fa3f31a1d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\github\TransparentStatusBar\TestBasic\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jar="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="D:\github\TransparentStatusBar\TestBasic\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_0925d3e8db0aaf4c32ef70d4667128484f08d4ea.jar" />
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_f5d72c568eb04308318f678bc731230745cd9779.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\github\TransparentStatusBar\TestBasic\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jar="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="D:\github\TransparentStatusBar\TestBasic\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_dd43810172f6564b774cc3d1e0e533fc9c2a2345.jar" />
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\github\TransparentStatusBar\TitlebarBelowTransparentStatusBar\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5404c62a90c74b9a4adf19e935e26f7ea753fd0c.jar" />
     </item>
 
 </items>

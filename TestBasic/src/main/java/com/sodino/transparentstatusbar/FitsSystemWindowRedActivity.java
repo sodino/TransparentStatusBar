@@ -29,7 +29,10 @@ public class FitsSystemWindowRedActivity extends Activity implements View.OnClic
 
         findViewById(R.id.back).setOnClickListener(this);
 
-        ((TextView)findViewById(R.id.content)).append("\n\nAPI Level v" + Build.VERSION.SDK_INT);
+        TextView txt = ((TextView)findViewById(R.id.content));
+        txt.setText("API Level v" + Build.VERSION.SDK_INT + "\n\n");
+        txt.append("Device : " + Build.FINGERPRINT + "\n\n");
+        txt.append(getString(R.string.content));
     }
 
     @Override

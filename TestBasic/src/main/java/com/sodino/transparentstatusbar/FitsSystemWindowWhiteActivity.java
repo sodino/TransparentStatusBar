@@ -19,9 +19,10 @@ public class FitsSystemWindowWhiteActivity extends Activity implements View.OnCl
         super.onCreate(bundle);
         setContentView(R.layout.activity_fitssystemwindow_white);
 
-        boolean needChanged = true;
+        boolean needChanged = false;
         Window window = getWindow();
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            needChanged = true;
             int visibility = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_STABLE;
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 // 亮色模式,避免系统状态栏的图标不可见
@@ -33,6 +34,7 @@ public class FitsSystemWindowWhiteActivity extends Activity implements View.OnCl
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
             window.setStatusBarColor(Color.TRANSPARENT);
         } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            needChanged = true;
             window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         }
         if (needChanged) {
@@ -42,7 +44,10 @@ public class FitsSystemWindowWhiteActivity extends Activity implements View.OnCl
 
         findViewById(R.id.back).setOnClickListener(this);
 
-        ((TextView)findViewById(R.id.content)).append("\n\nAPI Level v" + Build.VERSION.SDK_INT);
+        TextView txt = ((TextView)findViewById(R.id.content));
+        txt.setText("API Level v" + Build.VERSION.SDK_INT + "\n\n");
+        txt.append("Device : " + Build.FINGERPRINT + "\n\n");
+        txt.append(getString(R.string.content));
     }
 
     @Override

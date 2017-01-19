@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
-    >
-    <item android:bottom="48dp">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
         <shape android:shape="rectangle">
-            <gradient
-                android:startColor="@android:color/white"
-                android:centerColor="#dddddd"
-                android:endColor="@android:color/darker_gray"
-                android:angle="90"
-                />
+            <solid android:color="@android:color/black" />
         </shape>
     </item>
-    <item android:top="25dp">
+    <item android:bottom="1dp">
         <shape android:shape="rectangle">
             <solid
                 android:color="@android:color/white" />
-            <padding
-                android:top="1px"
-                android:bottom="1px" />
-            <stroke
-                android:width="1px"
-                android:color="#ffdbdbdb" />
+        </shape>
+    </item>
+
+    <!-- 48dp为标题栏高度　-->
+    <item android:bottom="48dp">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <gradient
+                android:startColor="@android:color/white"
+                android:centerColor="@color/middleColor"
+                android:endColor="@android:color/darker_gray"
+                android:angle="90"
+                />
         </shape>
     </item>
 </layer-list>
