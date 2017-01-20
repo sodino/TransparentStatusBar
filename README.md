@@ -114,7 +114,7 @@ GitHub源码:[TransparentStatusbar](https://github.com/sodino/TransparentStatusB
 --------------------------------
 ## fitsSystemWindows   
 
-我并不想用该标签.   
+我并不想用该属性.   
 这里只记录一下系统源码中的相应的方法:  
 ````
 View.java
