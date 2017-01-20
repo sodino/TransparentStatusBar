@@ -92,7 +92,7 @@ GitHub源码:[TransparentStatusbar](https://github.com/sodino/TransparentStatusB
 ## 处理消失的系统状态栏区域 
 处理方式可以有:    
 1. 就让`activity`的`contentView`顶上去吧,不需要修改.
-    * 这种场景用于一些可全屏浏览图片/观看视频等界面.
+    * 这种场景用于一些可全屏浏览图片/观看视频等界面.     
 2. 调整`Titlebar`的高度.  
     * 可以通过设置`paddingTop`/`layout_height`.
     * 对于不同的Android版本,可以通过版本适配文件,在`values/dimens.xml`和`values-v19/dimens.xml`分别定义具体数值.
