@@ -97,7 +97,7 @@ GitHub源码:[TransparentStatusbar](https://github.com/sodino/TransparentStatusB
     * 可以通过设置`paddingTop`/`layout_height`.
     * 对于不同的Android版本,可以通过版本适配文件,在`values/dimens.xml`和`values-v19/dimens.xml`分别定义具体数值.
     * 调整`paddingTop`,有可能导致`Titlebar`中的内容不会再垂直居中.
-    * 不适应无`Titlebar`的`activity`. 
+    * 不适应无`Titlebar`的`activity`.   
 3. `android:fitsSystemWindows` && `OnApplyWindowInsetsListener`
     * `fitsSystemWindows`标签可以直接对`View`添加`paddingXXX`  
     * 从`activity`的布局嵌套结构中只对**第一个**设置`fitsSystemWidnows`的`View`有效,无法设置设置到多个`View`
