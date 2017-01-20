@@ -29,7 +29,8 @@ GitHub源码:[TransparentStatusbar](https://github.com/sodino/TransparentStatusB
 --------------------------------
 ## 透明状态栏Api及特性
 
-从`Android 4.4(v19)`开始，透明状态栏特性变化很频繁，直到`Android 6.0(v23)`才真正完善稳定．　　　
+从`Android 4.4(v19)`开始，透明状态栏特性变化很频繁，直到`Android 6.0(v23)`才真正完善稳定．　　
+　  
 下表展示各版本所引入的新`Api`或特性．
 
 |Version/level|Features |Description |
@@ -360,3 +361,5 @@ public class BaseFragment extends Fragment {
 出了华为这档子事,就把App上传试了下其它各种手机,还好还好,没发现其它妖娥子.    
 
 ![uTest](./img/uTest.png)
+
+
