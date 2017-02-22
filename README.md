@@ -340,6 +340,47 @@ public class BaseFragment extends Fragment {
 ![white.Titlebar.perfect](./img/white.Titlebar.perfect.png)
 
 
+
+
+--------------------------------
+## React-Native的处理
+
+`React-Native`是`js`代码，怎么办？  
+不不，`React`是表象，`Native`是实质。一样处理掉。  
+`React-Native`最`root`的组件界面是`ReactRootView`，可以在显示的`Activity`里布局使用`LinearLayout`，`orientation`为`VERTICAL`,  
+将`TransparentStatusBar`及`ReactRootView`一并添加为子`View`,设置该`LinearLayout`为`Activity`的`contentView`即可。
+
+代码如下：
+
+````
+
+public class ElnReactBaseActivity extends BaseActivity {
+    private ReactInstanceManager mReactInstanceManager;
+  
+    private ReactRootView mReactRootView;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+  
+        LinearLayout linearLayout = new LinearLayout(this);
+        linearLayout.setOrientation(LinearLayout.VERTICAL);
+        viewStatusbarBackground = LayoutInflater.from(this).inflate(R.layout.transparent_status_bar_bg_view, linearLayout, false);
+        linearLayout.addView(viewStatusbarBackground);
+  
+        mReactRootView = new ReactRootView(this);
+        LinearLayout.LayoutParams layParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+        linearLayout.addView(mReactRootView, layParams);
+  
+        mReactInstanceManager = ReactHelper.getInstance().getReactManager();
+        Bundle bundle = getExtra();
+        mReactRootView.startReactApplication(mReactInstanceManager, "ELearning", bundle);
+    
+        setContentView(linearLayout);
+    }
+}
+````
+
+
 --------------------------------
 ## 小米 与 魅族 与 (莫名其妙的)华为 
 
